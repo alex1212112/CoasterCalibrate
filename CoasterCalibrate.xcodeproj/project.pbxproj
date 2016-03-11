@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5573DB6A4B0B4580B9787CA5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F52DEF450FD4F179A305598 /* libPods.a */; };
+		70AC35F919D8271800487042 /* GHTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AC35F819D8271800487042 /* GHTool.m */; };
+		70B1020119D18923001C1FBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1020019D18923001C1FBF /* main.m */; };
+		70B1020419D18923001C1FBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1020319D18923001C1FBF /* AppDelegate.m */; };
+		70B1020719D18923001C1FBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1020619D18923001C1FBF /* ViewController.m */; };
+		70B1020A19D18923001C1FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B1020819D18923001C1FBF /* Main.storyboard */; };
+		70B1020C19D18923001C1FBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B1020B19D18923001C1FBF /* Images.xcassets */; };
+		70B1020F19D18923001C1FBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70B1020D19D18923001C1FBF /* LaunchScreen.xib */; };
+		70B1021B19D18923001C1FBF /* CoasterCalibrateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1021A19D18923001C1FBF /* CoasterCalibrateTests.m */; };
+		70B1023319D19F13001C1FBF /* GHBLECentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1023219D19F13001C1FBF /* GHBLECentralManager.m */; };
+		70B1023D19D1AADF001C1FBF /* CBPeripheral+GHBLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1023C19D1AADF001C1FBF /* CBPeripheral+GHBLE.m */; };
+		70B1024119D1C807001C1FBF /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1024019D1C807001C1FBF /* DeviceCell.m */; };
+		70B1024619D26A3D001C1FBF /* CalibrateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B1024519D26A3D001C1FBF /* CalibrateViewController.m */; };
+		70F9A55F19E6BE6B005F2D1E /* GHCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9A55E19E6BE6B005F2D1E /* GHCTool.m */; };
+		70F9A56219E6C1CA005F2D1E /* CalibrateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F9A56119E6C1CA005F2D1E /* CalibrateCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70B1021519D18923001C1FBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70B101F319D18923001C1FBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70B101FA19D18923001C1FBF;
+			remoteInfo = CoasterCalibrate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42436E65ADCE451EA9E7D028 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		5F52DEF450FD4F179A305598 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AC35F719D8271800487042 /* GHTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTool.h; sourceTree = "<group>"; };
+		70AC35F819D8271800487042 /* GHTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTool.m; sourceTree = "<group>"; };
+		70B101FB19D18923001C1FBF /* CoasterCalibrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoasterCalibrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B101FF19D18923001C1FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B1020019D18923001C1FBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70B1020219D18923001C1FBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70B1020319D18923001C1FBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70B1020519D18923001C1FBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70B1020619D18923001C1FBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70B1020919D18923001C1FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70B1020B19D18923001C1FBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70B1020E19D18923001C1FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		70B1021419D18923001C1FBF /* CoasterCalibrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoasterCalibrateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B1021919D18923001C1FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B1021A19D18923001C1FBF /* CoasterCalibrateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoasterCalibrateTests.m; sourceTree = "<group>"; };
+		70B1023119D19F13001C1FBF /* GHBLECentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBLECentralManager.h; sourceTree = "<group>"; };
+		70B1023219D19F13001C1FBF /* GHBLECentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBLECentralManager.m; sourceTree = "<group>"; };
+		70B1023B19D1AADF001C1FBF /* CBPeripheral+GHBLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+GHBLE.h"; sourceTree = "<group>"; };
+		70B1023C19D1AADF001C1FBF /* CBPeripheral+GHBLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+GHBLE.m"; sourceTree = "<group>"; };
+		70B1023F19D1C807001C1FBF /* DeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCell.h; sourceTree = "<group>"; };
+		70B1024019D1C807001C1FBF /* DeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceCell.m; sourceTree = "<group>"; };
+		70B1024219D1C8EE001C1FBF /* GHMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHMacro.h; sourceTree = "<group>"; };
+		70B1024419D26A3D001C1FBF /* CalibrateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateViewController.h; sourceTree = "<group>"; };
+		70B1024519D26A3D001C1FBF /* CalibrateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateViewController.m; sourceTree = "<group>"; };
+		70F9A55D19E6BE6B005F2D1E /* GHCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHCTool.h; sourceTree = "<group>"; };
+		70F9A55E19E6BE6B005F2D1E /* GHCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHCTool.m; sourceTree = "<group>"; };
+		70F9A56019E6C1CA005F2D1E /* CalibrateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrateCell.h; sourceTree = "<group>"; };
+		70F9A56119E6C1CA005F2D1E /* CalibrateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalibrateCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70B101F819D18923001C1FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5573DB6A4B0B4580B9787CA5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B1021119D18923001C1FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD84C393D534FBC85424525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F52DEF450FD4F179A305598 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70B101F219D18923001C1FBF = {
+			isa = PBXGroup;
+			children = (
+				70B101FD19D18923001C1FBF /* CoasterCalibrate */,
+				70B1021719D18923001C1FBF /* CoasterCalibrateTests */,
+				70B101FC19D18923001C1FBF /* Products */,
+				42436E65ADCE451EA9E7D028 /* Pods.xcconfig */,
+				5AD84C393D534FBC85424525 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70B101FC19D18923001C1FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70B101FB19D18923001C1FBF /* CoasterCalibrate.app */,
+				70B1021419D18923001C1FBF /* CoasterCalibrateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70B101FD19D18923001C1FBF /* CoasterCalibrate */ = {
+			isa = PBXGroup;
+			children = (
+				70B1020219D18923001C1FBF /* AppDelegate.h */,
+				70B1020319D18923001C1FBF /* AppDelegate.m */,
+				70B1024819D26AEE001C1FBF /* Tool */,
+				70B1024719D26ACE001C1FBF /* Main */,
+				70B1024319D26A06001C1FBF /* Calibrate */,
+				70B1023E19D1AAE1001C1FBF /* Category */,
+				70B1023419D19F19001C1FBF /* BlueTooth */,
+				70B1020819D18923001C1FBF /* Main.storyboard */,
+				70B1020B19D18923001C1FBF /* Images.xcassets */,
+				70B1020D19D18923001C1FBF /* LaunchScreen.xib */,
+				70B101FE19D18923001C1FBF /* Supporting Files */,
+			);
+			path = CoasterCalibrate;
+			sourceTree = "<group>";
+		};
+		70B101FE19D18923001C1FBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70B101FF19D18923001C1FBF /* Info.plist */,
+				70B1020019D18923001C1FBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70B1021719D18923001C1FBF /* CoasterCalibrateTests */ = {
+			isa = PBXGroup;
+			children = (
+				70B1021A19D18923001C1FBF /* CoasterCalibrateTests.m */,
+				70B1021819D18923001C1FBF /* Supporting Files */,
+			);
+			path = CoasterCalibrateTests;
+			sourceTree = "<group>";
+		};
+		70B1021819D18923001C1FBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70B1021919D18923001C1FBF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70B1023419D19F19001C1FBF /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				70B1023119D19F13001C1FBF /* GHBLECentralManager.h */,
+				70B1023219D19F13001C1FBF /* GHBLECentralManager.m */,
+			);
+			name = BlueTooth;
+			sourceTree = "<group>";
+		};
+		70B1023E19D1AAE1001C1FBF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				70B1023B19D1AADF001C1FBF /* CBPeripheral+GHBLE.h */,
+				70B1023C19D1AADF001C1FBF /* CBPeripheral+GHBLE.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		70B1024319D26A06001C1FBF /* Calibrate */ = {
+			isa = PBXGroup;
+			children = (
+				70B1024419D26A3D001C1FBF /* CalibrateViewController.h */,
+				70B1024519D26A3D001C1FBF /* CalibrateViewController.m */,
+				70F9A56019E6C1CA005F2D1E /* CalibrateCell.h */,
+				70F9A56119E6C1CA005F2D1E /* CalibrateCell.m */,
+			);
+			name = Calibrate;
+			sourceTree = "<group>";
+		};
+		70B1024719D26ACE001C1FBF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				70B1020519D18923001C1FBF /* ViewController.h */,
+				70B1020619D18923001C1FBF /* ViewController.m */,
+				70B1023F19D1C807001C1FBF /* DeviceCell.h */,
+				70B1024019D1C807001C1FBF /* DeviceCell.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		70B1024819D26AEE001C1FBF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				70AC35F719D8271800487042 /* GHTool.h */,
+				70AC35F819D8271800487042 /* GHTool.m */,
+				70B1024219D1C8EE001C1FBF /* GHMacro.h */,
+				70F9A55D19E6BE6B005F2D1E /* GHCTool.h */,
+				70F9A55E19E6BE6B005F2D1E /* GHCTool.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70B101FA19D18923001C1FBF /* CoasterCalibrate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B1021E19D18923001C1FBF /* Build configuration list for PBXNativeTarget "CoasterCalibrate" */;
+			buildPhases = (
+				D3612B2269BD46E7ABA3F600 /* Check Pods Manifest.lock */,
+				70B101F719D18923001C1FBF /* Sources */,
+				70B101F819D18923001C1FBF /* Frameworks */,
+				70B101F919D18923001C1FBF /* Resources */,
+				BE2E081387C14F75963B5086 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoasterCalibrate;
+			productName = CoasterCalibrate;
+			productReference = 70B101FB19D18923001C1FBF /* CoasterCalibrate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70B1021319D18923001C1FBF /* CoasterCalibrateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70B1022119D18923001C1FBF /* Build configuration list for PBXNativeTarget "CoasterCalibrateTests" */;
+			buildPhases = (
+				70B1021019D18923001C1FBF /* Sources */,
+				70B1021119D18923001C1FBF /* Frameworks */,
+				70B1021219D18923001C1FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70B1021619D18923001C1FBF /* PBXTargetDependency */,
+			);
+			name = CoasterCalibrateTests;
+			productName = CoasterCalibrateTests;
+			productReference = 70B1021419D18923001C1FBF /* CoasterCalibrateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70B101F319D18923001C1FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Nevermore;
+				TargetAttributes = {
+					70B101FA19D18923001C1FBF = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = NBLF4TFQN6;
+					};
+					70B1021319D18923001C1FBF = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 70B101FA19D18923001C1FBF;
+					};
+				};
+			};
+			buildConfigurationList = 70B101F619D18923001C1FBF /* Build configuration list for PBXProject "CoasterCalibrate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70B101F219D18923001C1FBF;
+			productRefGroup = 70B101FC19D18923001C1FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70B101FA19D18923001C1FBF /* CoasterCalibrate */,
+				70B1021319D18923001C1FBF /* CoasterCalibrateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70B101F919D18923001C1FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B1020A19D18923001C1FBF /* Main.storyboard in Resources */,
+				70B1020F19D18923001C1FBF /* LaunchScreen.xib in Resources */,
+				70B1020C19D18923001C1FBF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B1021219D18923001C1FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE2E081387C14F75963B5086 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3612B2269BD46E7ABA3F600 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70B101F719D18923001C1FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AC35F919D8271800487042 /* GHTool.m in Sources */,
+				70F9A56219E6C1CA005F2D1E /* CalibrateCell.m in Sources */,
+				70B1020719D18923001C1FBF /* ViewController.m in Sources */,
+				70B1020419D18923001C1FBF /* AppDelegate.m in Sources */,
+				70B1023319D19F13001C1FBF /* GHBLECentralManager.m in Sources */,
+				70B1024119D1C807001C1FBF /* DeviceCell.m in Sources */,
+				70B1024619D26A3D001C1FBF /* CalibrateViewController.m in Sources */,
+				70F9A55F19E6BE6B005F2D1E /* GHCTool.m in Sources */,
+				70B1020119D18923001C1FBF /* main.m in Sources */,
+				70B1023D19D1AADF001C1FBF /* CBPeripheral+GHBLE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B1021019D18923001C1FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B1021B19D18923001C1FBF /* CoasterCalibrateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70B1021619D18923001C1FBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70B101FA19D18923001C1FBF /* CoasterCalibrate */;
+			targetProxy = 70B1021519D18923001C1FBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70B1020819D18923001C1FBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B1020919D18923001C1FBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70B1020D19D18923001C1FBF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70B1020E19D18923001C1FBF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70B1021C19D18923001C1FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70B1021D19D18923001C1FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70B1021F19D18923001C1FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42436E65ADCE451EA9E7D028 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guohua Ren (NBLF4TFQN6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guohua Ren (NBLF4TFQN6)";
+				INFOPLIST_FILE = CoasterCalibrate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "74ab814a-5c8b-4665-8247-0fcdeb36d0e9";
+			};
+			name = Debug;
+		};
+		70B1022019D18923001C1FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42436E65ADCE451EA9E7D028 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guohua Ren (NBLF4TFQN6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guohua Ren (NBLF4TFQN6)";
+				INFOPLIST_FILE = CoasterCalibrate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "74ab814a-5c8b-4665-8247-0fcdeb36d0e9";
+			};
+			name = Release;
+		};
+		70B1022219D18923001C1FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoasterCalibrateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoasterCalibrate.app/CoasterCalibrate";
+			};
+			name = Debug;
+		};
+		70B1022319D18923001C1FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoasterCalibrateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoasterCalibrate.app/CoasterCalibrate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70B101F619D18923001C1FBF /* Build configuration list for PBXProject "CoasterCalibrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B1021C19D18923001C1FBF /* Debug */,
+				70B1021D19D18923001C1FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B1021E19D18923001C1FBF /* Build configuration list for PBXNativeTarget "CoasterCalibrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B1021F19D18923001C1FBF /* Debug */,
+				70B1022019D18923001C1FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70B1022119D18923001C1FBF /* Build configuration list for PBXNativeTarget "CoasterCalibrateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70B1022219D18923001C1FBF /* Debug */,
+				70B1022319D18923001C1FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70B101F319D18923001C1FBF /* Project object */;
+}
